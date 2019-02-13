@@ -4,5 +4,5 @@ compiler:
  -clang
  -gcc
 script:
- -gcc-o test test.c //wecanusegccinsteadofclangtoo
+ -gcc-o 213372 213372.c //wecanusegccinsteadofclangtoo
  -./test
