@@ -29,5 +29,4 @@ void rev(int n)
             n++;
         }
     }
-    
 }
