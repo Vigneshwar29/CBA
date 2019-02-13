@@ -2,7 +2,7 @@ language: c
 sudo: false # only for faster builds
 script:
   - clang -coverage -O0 213372.c -o 213372
-  - gcov 213372.c
+  - gc-o 213372.c
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
