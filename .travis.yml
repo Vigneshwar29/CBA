@@ -7,7 +7,13 @@ matrix:
         - gcc
       script:  
         - gcc -o test 213368.c
+        - ./test
+      script:  
         - gcc -o test 213372.c
+        - ./test
+      script:  
         - gcc -o test 213373.c
+        - ./test
+      script:  
         - gcc -o test 213379.c
         - ./test
