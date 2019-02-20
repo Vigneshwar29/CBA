@@ -1,9 +1,8 @@
 language:c
 sudo:false #only for faster builds
 compiler:
-www.kpit.com|P A G E| 8
- -clang
- -gcc8
+ - clang
+ - gcc8
 script:
- -gcc -o test test.c //wecanusegccinsteadofclangtoo
-- ./test
+ - gcc -o test test.c //wecanusegccinsteadofclangtoo
+ - ./test
